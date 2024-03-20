@@ -1,0 +1,59 @@
+Questions
+
+Rename a table in the database
+code for number of processing units available on the system
+trains a k-nearest neighbors classifier for face recognition.
+Get the status of a process with a particular pid in the system
+calculate the cosine similarity of the  tf idf vector 
+Tokenize the text into a list of sentences with a list of words
+Compare two dictionary and return only keys that exist only in the first dictionary 
+Convert a list of int subtokens id into a string.
+Get vedio from the url
+Returns sentence address that contain a given variable name
+Inserts the given object as a new item in the database
+Cleanly shutdown the router socket
+Fetch the file for a given path.
+apply processing running comparison like changing type of list into array
+Returns a list of Sentence objects from the raw text
+Detect  which language is used to write the snippet of text
+Extract the contents of the zip file into the root directory 
+correct the spelling of a blog
+Strongly connected components by Kosaraju algorithm
+group a list of words into anagrams
+binary search function complexity log n
+Determines if an additional incoming network connection should be permitted
+"Get expected memory usage, in Gb per core, for a program from resource specification"
+"When scheduling jobs with single cores, avoid overscheduling due to memory.'"
+Extracts a Hunt ID from an APIAuditEntry's HTTP request path
+Get a difference between running config and a proposed file.
+Return information about the virtual memory on the machine
+Changes the current directory to the path given
+Takes a path and returns a simple absolute path as a list of directories from the root
+Returns a list of numericised values from strings
+Euclidean distance between 2 standard vector 
+Get all repositories list from project
+Count the set of words appeared in a text file
+Returns a vocabulary after eliminating the words that appear minimum word frequency 
+Construct server instance from cloud profile
+Add an external network gateway to the specified router
+Add prompt to bottom of screen and get line of input from user
+Resizes the image according to width and size
+Delete rows for which func(row) is true and returns number of deleted rows.
+Returns values and indices of k items with largest similarity
+Calculates word n-grams for multiple sentences.
+Returns the Longest common Subsequence between x and y
+"Returns a list of atomic orbitals, sorted from lowest to highest energy"
+Check if a given path is readable by the current user return true or false
+Defines a Python class that represents a struct in Stone.
+Validates that all the documentation references in a docstring are formatted properly
+k-nearest neighbors classifier for face recognition
+Write code for detection of csv formatted file
+Try to find the active IP addresses in default gateway
+Check if a username/password combination is valid.
+"Shut down the entire process, if all currently-running builds are closed"
+Add and commit all files given in a list into a git repository
+convert a list of int subtokens id into a string.
+Locate the CUDA environment on the system
+Check if access should be allowed for the request
+Compute the product set of array_a and array_b and sort it.
+Checks if the input dictionary of users is valid.
