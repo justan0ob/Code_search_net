@@ -31,8 +31,8 @@ After downloading these embeddings  this how we should store this embedding in r
 
 <h2> What we have done</h2>
 <p>After generating the embeddings of all model . Now the testing data(/Data/testing_data/query.csv) is present, It has 57 queries present in it,  embeddings model will first convert this query into embeddings and it will try to fetch the top 10 docstring that matches with this query using cosine similarity and get top 10 index of these index and it fill fetch the top 10 code that can possibly be code for the query . Now this query and top 10 code are passed in the <b>Claue Api</b> and the claude api will generate the response whether this code for the query is in the top 10 code or not. Response from the claide is Yes or No for the query. </p>
-<h2>Why differnt model</h2>
-<p>Different model have different embedding vector for a particular query and every model can generate different result for a query whether code is present in the data or not , for a paricular one model does not give the answer but the other model can give the answer for the query.
-every embedding model has differnet accuracy for the testing data.
+<h2>Why different model</h2>
+<p>Different model have different embedding vector for a particular query and every model can generate different top code for a query , and these code on passing to claude tells whether code is present in the top 10 data or not , for a paritcular model some query does not give the answer but the other model can give the answer for the query.
+every embedding model has different accuracy for the testing data.
 </p>
 
