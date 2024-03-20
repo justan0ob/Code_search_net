@@ -11,7 +11,7 @@ Now here is how we should store this data in root:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               |______ python_train_4.jsonl<br>
 </p>
 <br>
-<b>Note:</b><p> After doing data exploration, we have used langdetect library to generate process the data. Now since langdetect is <b>not 100% accurate</b>, so it will generate different records
+<b>Note:</b><p> After doing data exploration, we have used langdetect library to detect the language of each row in the data. Now since langdetect is <b>not 100% accurate</b>, so it will generate different records
 everytime it is run on raw data.
 Thus we have provided the <a href="https://drive.google.com/file/d/1bLikw_SwcHxvVD9AmcK_E73rQajFqKRk/view?usp=sharing">link</a> to the processed data which the model has used to generate the embeddings, which are further used during query time.<br>
 <b>Caution: </b> If you don't use the preprocessed data provided in the link, then you will have to feed the data to model again  to generate the embedding for further during query time, and this process of generating embeddings will take <b>3-4 hours.</b>
