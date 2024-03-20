@@ -17,7 +17,7 @@ Thus we have provided the <a href="https://drive.google.com/file/d/1bLikw_SwcHxv
 <b>Caution: </b> If you don't use the preprocessed data provided in the link, then you will have to feed the data to model again  to generate the embedding for further during query time, and this process of generating embeddings will take <b>3-4 hours.</b>
 Thus we have provided the <a href="https://drive.google.com/file/d/1drjOcMPYLHwW_9sTjmou1lNZah-X2E-L/view?usp=sharing">link of embeddings of model_1</a>,
   <a href="https://drive.google.com/file/d/1NFyxfvNocy_1PCCxc_M4weHL58zUSgfg/view?usp=sharing">link of embeddings of model_2</a>,
-  <a href="https://drive.google.com/file/d/1cbDh820oqAD_wVQ3WsSV3N4awnG_njav/view?usp=sharing">link of embeddings of model_3</a,
+  <a href="https://drive.google.com/file/d/1cbDh820oqAD_wVQ3WsSV3N4awnG_njav/view?usp=sharing">link of embeddings of model_3</a>,
   <a href="https://drive.google.com/file/d/1kR70NPqQD0w0fTp9bprrOL8zjYTYuCV7/view?usp=sharing">link of embeddings of model_4</a>,
  the models which has generated the embeddings, which are further used during query time.
 After downloading these embeddings  this how we should store this embedding in root:<br>
