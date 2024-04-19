@@ -46,3 +46,24 @@ every embedding model has different accuracy for the testing data.
 Since we are not able to use embeddings model of higher vector size ,I have to work on the medium size embeddings
 model with vector size of 1024, 768 </p>
 
+<h1>Using the API</h1>
+<p>Firat download the embeddings from this <a href="https://drive.google.com/file/d/1drjOcMPYLHwW_9sTjmou1lNZah-X2E-L/view?usp=sharing">link of embeddings of model_1</a> and store the downloaded embedding in the structure like this <br>
+<b>root</b><br>
+|______Project_3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     |____emdeddings<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                |______ embeddings_all_mpnet_base_v2.npy<br>
+Then in ./src/model_evaluation.py uploaded your claude api key <br>
+In the command line, cd to the directory  ```Project_3``` and type the following command:
+``` bash
+uvicorn API_File:app
+```
+  <br>
+You will get a link to use the API. Copy this to your browser and append /docs to the end of the link.<br>
+
+Go onto the predict POST method and click 'Try it Out'<br>
+
+Input the query for which you want to get the code ,it will try to fetch the top relevant code possible for this query ,will show the output <br>
+for wrong input or if no relevant code is present the data it will return Wrong Input 
+
+</p>
+
